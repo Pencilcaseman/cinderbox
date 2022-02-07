@@ -1,0 +1,8 @@
+//
+// Created by penci on 17/01/2022.
+//
+
+#ifndef CINDERBOXBUILD_SLIDER_HH
+#define CINDERBOXBUILD_SLIDER_HH
+
+#endif //CINDERBOXBUILD_SLIDER_HH

@@ -1,8 +1,4 @@
-//
-// Created by penci on 17/01/2022.
-//
+#pragma once
 
-#ifndef CINDERBOX_CINDERBOX_HH
-#define CINDERBOX_CINDERBOX_HH
-
-#endif //CINDERBOX_CINDERBOX_HH
+#include "includes.hh"
+#include "slider.hh"

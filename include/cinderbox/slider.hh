@@ -1,8 +1,15 @@
-//
-// Created by penci on 17/01/2022.
-//
+#pragma once
 
-#ifndef CINDERBOXBUILD_SLIDER_HH
-#define CINDERBOXBUILD_SLIDER_HH
+#include "includes.hh"
 
-#endif //CINDERBOXBUILD_SLIDER_HH
+namespace cbox {
+	template<typename T>
+	class Slider {
+	public:
+
+	private:
+		float m_leftX = 0;
+		float m_leftY = 0;
+
+	};
+}

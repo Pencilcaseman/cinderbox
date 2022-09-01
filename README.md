@@ -6,5 +6,8 @@ can spend more time coding and less time preparing.
 
 ### Packages contained in CinderBox
 1. ``Cinder``
-2. ``{fmt}``
-3. ``librapid`` (soon)
+2. ``librapid``
+    - ``{fmt}``
+    - ``scnlib``
+    - ``MPIR``
+    - ``MPFR``

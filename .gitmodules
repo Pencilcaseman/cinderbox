@@ -1,3 +1,6 @@
 [submodule "Cinder"]
 	path = Cinder
 	url = https://github.com/cinder/Cinder
+[submodule "librapid"]
+	path = librapid
+	url = https://github.com/LibRapid/librapid

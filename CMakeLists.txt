@@ -33,13 +33,15 @@ else()
     FetchContent_MakeAvailable(librapid)
 endif()
 
-add_library(cinderbox INTERFACE)
+set(CINDERBOX_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/gradient.cpp")
 
-target_include_directories(cinderbox INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}/include")
-target_link_libraries(cinderbox INTERFACE cinder)
-target_link_libraries(cinderbox INTERFACE librapid)
+add_library(cinderbox STATIC ${CINDERBOX_SOURCES})
+
+target_include_directories(cinderbox PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include")
+target_link_libraries(cinderbox PUBLIC cinder)
+target_link_libraries(cinderbox PUBLIC librapid)
 
 # Fix a bug with MSVC
 if (${MSVC})
-    target_link_options(cinderbox INTERFACE /SUBSYSTEM:WINDOWS)
+    target_link_options(cinderbox PUBLIC /SUBSYSTEM:WINDOWS)
 endif()

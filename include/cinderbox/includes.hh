@@ -80,7 +80,7 @@
 #include <cinder/ip/EdgeDetect.h>
 #include <cinder/ip/Fill.h>
 #include <cinder/ip/FLip.h>
-#include <cinder/ip/Greyscale.h>
+#include <cinder/ip/Grayscale.h>
 #include <cinder/ip/Hdr.h>
 #include <cinder/ip/Premultiply.h>
 #include <cinder/ip/Resize.h>

@@ -6,7 +6,7 @@
 //  Modified by Toby Davis on 02/09/22.
 
 #include <cinderbox/includes.hh>
-#include <cinderbox/../imgui/imgui_internal.h>
+#include <cinderbox/../../Cinder/include/imgui/imgui_internal.h>
 #include <cinderbox/gradient.hh>
 
 static const float GRADIENT_BAR_WIDGET_HEIGHT = 25;

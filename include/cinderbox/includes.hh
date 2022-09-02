@@ -74,3 +74,15 @@
 #include <cinder/Utilities.h>
 #include <cinder/Vector.h>
 #include <cinder/Xml.h>
+#include <cinder/ip/Blend.h>
+#include <cinder/ip/Blur.h>
+#include <cinder/ip/Checkerboard.h>
+#include <cinder/ip/EdgeDetect.h>
+#include <cinder/ip/Fill.h>
+#include <cinder/ip/FLip.h>
+#include <cinder/ip/Greyscale.h>
+#include <cinder/ip/Hdr.h>
+#include <cinder/ip/Premultiply.h>
+#include <cinder/ip/Resize.h>
+#include <cinder/ip/Threshold.h>
+#include <cinder/ip/Trim.h>
